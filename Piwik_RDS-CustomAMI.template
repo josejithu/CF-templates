@@ -37,7 +37,7 @@
 
     "DBPassword": {
       "NoEcho": "true",
-      "Default": "p1w1kc0nn",
+      "Default": "XXXXXX",
       "Description" : "Password for MySQL database access",
       "Type": "String",
       "MinLength": "1",
