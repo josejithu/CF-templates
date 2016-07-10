@@ -37,7 +37,7 @@
 
     "DBPassword": {
       "NoEcho": "true",
-      "Default": "p1w1kc0nn",
+      "Default": "XXXXXX",
       "Description" : "Password for MySQL database access",
       "Type": "String",
       "MinLength": "1",
@@ -101,7 +101,7 @@
       "Type": "AWS::EC2::Instance",
       "Metadata" : {
         "Comment1" : "Configure the bootstrap helpers to install the Apache Web Server and PHP",
-        "Comment2" : "The website content is downloaded from the CloudFormationPHPSample.zip file",
+        "Comment2" : "Echo the DB Endpoint to a file to populate configs",
 
         "AWS::CloudFormation::Init" : {
           "configSets" : {
